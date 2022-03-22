@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Biostatistics for Clinical Research</title>
+  <meta name="description" content="This is an open educational resource (OER) book for Biostatistics for Clinical Research: Theory &amp; Applications in R using the bookdown package in RStudio. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Biostatistics for Clinical Research" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is an open educational resource (OER) book for Biostatistics for Clinical Research: Theory &amp; Applications in R using the bookdown package in RStudio. The output format for this example is bookdown::gitbook." />
+  <meta name="github-repo" content="scollinspt/Biostatistics" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Biostatistics for Clinical Research" />
+  
+  <meta name="twitter:description" content="This is an open educational resource (OER) book for Biostatistics for Clinical Research: Theory &amp; Applications in R using the bookdown package in RStudio. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Sean Collins" />
+
+
+<meta name="date" content="2022-03-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="intro.html"/>
+<script src="libs/header-attrs-2.10.6/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Biostatistics</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="" data-path="part1.html"><a href="part1.html"><i class="fa fa-check"></i>Part I</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="part1.html"><a href="part1.html#tentative-toc"><i class="fa fa-check"></i><b>0.1</b> Tentative ToC</a>
+<ul>
+<li class="chapter" data-level="0.1.1" data-path="part1.html"><a href="part1.html#part-one-biostatistics-i"><i class="fa fa-check"></i><b>0.1.1</b> Part One (Biostatistics I)</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="the-role-of-biostatistics-in-clinical-research.html"><a href="the-role-of-biostatistics-in-clinical-research.html"><i class="fa fa-check"></i><b>1</b> The role of biostatistics in clinical research</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="the-role-of-biostatistics-in-clinical-research.html"><a href="the-role-of-biostatistics-in-clinical-research.html#preliminaries"><i class="fa fa-check"></i><b>1.1</b> Preliminaries</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="the-role-of-biostatistics-in-clinical-research.html"><a href="the-role-of-biostatistics-in-clinical-research.html#contingency-table"><i class="fa fa-check"></i><b>1.1.1</b> Contingency Table</a></li>
+<li class="chapter" data-level="1.1.2" data-path="the-role-of-biostatistics-in-clinical-research.html"><a href="the-role-of-biostatistics-in-clinical-research.html#sensitivity-specificity"><i class="fa fa-check"></i><b>1.1.2</b> Sensitivity / Specificity</a></li>
+<li class="chapter" data-level="1.1.3" data-path="the-role-of-biostatistics-in-clinical-research.html"><a href="the-role-of-biostatistics-in-clinical-research.html#positive-likelihood-ratio"><i class="fa fa-check"></i><b>1.1.3</b> Positive Likelihood Ratio</a></li>
+<li class="chapter" data-level="1.1.4" data-path="the-role-of-biostatistics-in-clinical-research.html"><a href="the-role-of-biostatistics-in-clinical-research.html#negative-likelihood-ratio"><i class="fa fa-check"></i><b>1.1.4</b> Negative Likelihood Ratio</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="the-role-of-biostatistics-in-clinical-research.html"><a href="the-role-of-biostatistics-in-clinical-research.html#bayes-formula"><i class="fa fa-check"></i><b>1.2</b> Bayes Formula</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="the-role-of-biostatistics-in-clinical-research.html"><a href="the-role-of-biostatistics-in-clinical-research.html#alternative-format"><i class="fa fa-check"></i><b>1.2.1</b> Alternative format</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="programming-concepts-in-r.html"><a href="programming-concepts-in-r.html"><i class="fa fa-check"></i><b>2</b> Programming Concepts in R</a></li>
+<li class="chapter" data-level="3" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html"><i class="fa fa-check"></i><b>3</b> Probability &amp; Statistical Inference</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#probability-introduction"><i class="fa fa-check"></i><b>3.1</b> Probability introduction</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#state-space-sample-space"><i class="fa fa-check"></i><b>3.1.1</b> State space (sample space)</a></li>
+<li class="chapter" data-level="3.1.2" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#probability-is-bound-between-0-and-1"><i class="fa fa-check"></i><b>3.1.2</b> Probability is bound between 0 and 1</a></li>
+<li class="chapter" data-level="3.1.3" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#certainty-and-uncertainty"><i class="fa fa-check"></i><b>3.1.3</b> Certainty and uncertainty</a></li>
+<li class="chapter" data-level="3.1.4" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#connection-to-deductive-logic"><i class="fa fa-check"></i><b>3.1.4</b> Connection to deductive logic</a></li>
+<li class="chapter" data-level="3.1.5" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#using-sets-as-probability-spaces"><i class="fa fa-check"></i><b>3.1.5</b> Using Sets as “Probability Spaces”</a></li>
+<li class="chapter" data-level="3.1.6" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#conditional-probability"><i class="fa fa-check"></i><b>3.1.6</b> Conditional probability</a></li>
+<li class="chapter" data-level="3.1.7" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#causation-connections"><i class="fa fa-check"></i><b>3.1.7</b> Causation connections</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#notes-and-thoughts-on-chapter-3-probability-in-the-clinical-encounter"><i class="fa fa-check"></i><b>3.2</b> Notes and thoughts on Chapter 3: Probability in the clinical encounter</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#uncertainty-and-probability-in-the-single-case"><i class="fa fa-check"></i><b>3.2.1</b> 3.1 Uncertainty and Probability in the Single Case</a></li>
+<li class="chapter" data-level="3.2.2" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#probability-from-statistics-frequentism"><i class="fa fa-check"></i><b>3.2.2</b> 3.2 Probability from Statistics: Frequentism</a></li>
+<li class="chapter" data-level="3.2.3" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#probability-as-degree-of-belief---subjective-credence"><i class="fa fa-check"></i><b>3.2.3</b> 3.3 Probability as Degree of Belief - Subjective Credence</a></li>
+<li class="chapter" data-level="3.2.4" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#probability-as-dispositional-and-intrinsic-properties"><i class="fa fa-check"></i><b>3.2.4</b> 3.4 Probability as Dispositional and Intrinsic Properties</a></li>
+<li class="chapter" data-level="3.2.5" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#propensities-and-the-clinic"><i class="fa fa-check"></i><b>3.2.5</b> 3.5 Propensities and the Clinic</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#statistical-inference-induction"><i class="fa fa-check"></i><b>3.3</b> Statistical Inference (Induction)</a></li>
+<li class="chapter" data-level="3.4" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#confidence-intervals-ci"><i class="fa fa-check"></i><b>3.4</b> Confidence Intervals (CI)</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#general-equations"><i class="fa fa-check"></i><b>3.4.1</b> General equations</a></li>
+<li class="chapter" data-level="3.4.2" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#ci-for-a-proportion"><i class="fa fa-check"></i><b>3.4.2</b> CI for a Proportion</a></li>
+<li class="chapter" data-level="3.4.3" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#ci-for-a-mean"><i class="fa fa-check"></i><b>3.4.3</b> CI for a Mean</a></li>
+<li class="chapter" data-level="3.4.4" data-path="probability-statistical-inference.html"><a href="probability-statistical-inference.html#ci-to-evaluate-differences"><i class="fa fa-check"></i><b>3.4.4</b> CI to evaluate differences</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="measurement.html"><a href="measurement.html"><i class="fa fa-check"></i><b>4</b> Measurement</a></li>
+<li class="chapter" data-level="5" data-path="tidying-for-tidy-data.html"><a href="tidying-for-tidy-data.html"><i class="fa fa-check"></i><b>5</b> Tidying for Tidy Data</a></li>
+<li class="chapter" data-level="6" data-path="transforming-for-transformed-data.html"><a href="transforming-for-transformed-data.html"><i class="fa fa-check"></i><b>6</b> Transforming for Transformed Data</a></li>
+<li class="chapter" data-level="7" data-path="descriptive-statistics.html"><a href="descriptive-statistics.html"><i class="fa fa-check"></i><b>7</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="8" data-path="exploratory-analysis.html"><a href="exploratory-analysis.html"><i class="fa fa-check"></i><b>8</b> Exploratory Analysis</a></li>
+<li class="chapter" data-level="" data-path="part2.html"><a href="part2.html"><i class="fa fa-check"></i>Part II</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="part2.html"><a href="part2.html#tentative-contents"><i class="fa fa-check"></i><b>8.1</b> Tentative Contents</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="computational-approaches-to-statistical-inference.html"><a href="computational-approaches-to-statistical-inference.html"><i class="fa fa-check"></i><b>9</b> Computational Approaches to Statistical Inference</a></li>
+<li class="chapter" data-level="10" data-path="methods-for-statistical-modeling.html"><a href="methods-for-statistical-modeling.html"><i class="fa fa-check"></i><b>10</b> Methods for Statistical Modeling</a></li>
+<li class="chapter" data-level="11" data-path="building-statistical-models.html"><a href="building-statistical-models.html"><i class="fa fa-check"></i><b>11</b> Building Statistical Models</a></li>
+<li class="chapter" data-level="12" data-path="evaluating-interpreting-statistical-models.html"><a href="evaluating-interpreting-statistical-models.html"><i class="fa fa-check"></i><b>12</b> Evaluating &amp; Interpreting Statistical Models</a></li>
+<li class="chapter" data-level="13" data-path="presentation-dissemination.html"><a href="presentation-dissemination.html"><i class="fa fa-check"></i><b>13</b> Presentation &amp; Dissemination</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Biostatistics for Clinical Research</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Biostatistics for Clinical Research</h1>
+<h2 class="subtitle"><em>Theory and Applications in R</em></h2>
+<p class="author"><em>Sean Collins</em></p>
+<p class="date"><em>2022-03-22</em></p>
+</div>
+<div id="preface" class="section level1 unnumbered">
+<h1>Preface</h1>
+<p>Biostatistics for Clinical Research: Theory and Applications in R is a book for the Biostatistics sequence of courses (1 &amp; 2) at the University of Jamestown PhD in Clinical Research program. The book teaches and utilizes examples with the open source computational platform R ( <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a>). There is an emphasis and equal distribution of theory and application through all chapters. There is an underlying emphasis on performing all applications utilizing reproducible research approaches (programming with sufficient commentary) and tools (GitHub, Figshare, Open Science Framework, etc) throughout the book.</p>
+<p>The book covers the theoretical foundations of biostatistics and the associated computational approaches of exploratory, descriptive and inferential biostatistical methods for the analysis of data in clinical research (observational and experimental). These methods are based on probability theory and include assessing the impact of chance and variability on the interpretation of research findings. Topics include probability theory, measurement theory, descriptive and exploratory analysis, analysis of assumptions and visualization; hypothesis testing; methods of comparison of discrete and continuous data including t-test, correlation, regression, and general linear models (including ANOVA). Applications and examples utilize the R statistical programming language to apply theoretical topics with real world data.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="intro.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/scollinspt/Biostatistics/blob/main/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Biostatistics.pdf", "Biostatistics.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

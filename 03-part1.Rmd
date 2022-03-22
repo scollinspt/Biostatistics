@@ -1,0 +1,14 @@
+# Part I {-#part1}
+
+## Tentative ToC
+
+### Part One (Biostatistics I)
+
+1. The role of biostatistics in clinical research
+2. Programming Concepts in R
+3. Probability & Statistical Inference
+4. Measurement
+5. Tidying for Tidy Data
+6. Transforming for Transformed Data
+7. Descriptive Statistics
+8. Exploratory Analysis

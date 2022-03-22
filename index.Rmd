@@ -1,0 +1,31 @@
+--- 
+title: "Biostatistics for Clinical Research"
+subtitle: "Theory and Applications in R"
+author: "Sean Collins"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: scollinspt/Biostatistics
+description: "This is an open educational resource (OER) book for Biostatistics for Clinical Research: Theory & Applications in R using the bookdown package in RStudio. The output format for this example is bookdown::gitbook."
+
+---
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+
+# Preface {-#preface}
+
+Biostatistics for Clinical Research: Theory and Applications in R is a book for the Biostatistics sequence of courses (1 & 2) at the University of Jamestown PhD in Clinical Research program. The book teaches and utilizes examples with the open source computational platform R  ( https://cran.r-project.org/). There is an emphasis and equal distribution of theory and application through all chapters. There is an underlying emphasis on performing all applications utilizing reproducible research approaches (programming with sufficient commentary) and tools (GitHub, Figshare, Open Science Framework, etc) throughout the book.
+
+The book covers the theoretical foundations of biostatistics and the associated computational approaches of exploratory, descriptive and inferential biostatistical methods for the analysis of data in clinical research (observational and experimental). These methods are based on probability theory and include assessing the impact of chance and variability on the interpretation of research findings. Topics include probability theory, measurement theory, descriptive and exploratory analysis, analysis of assumptions and visualization; hypothesis testing; methods of comparison of discrete and continuous data including t-test, correlation, regression, and general linear models (including ANOVA). Applications and examples utilize the R statistical programming language to apply theoretical topics with real world data.
+

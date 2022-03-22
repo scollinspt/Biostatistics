@@ -1,0 +1,58 @@
+# The role of biostatistics in clinical research
+
+Under development
+
+From clinical inquiry book - not sure where this may apply in this text; maybe as a review in an appendix since they should know this (it is entry level material for most clinicians)
+
+## Preliminaries
+
+### Contingency Table
+
+|                | $D$            | $\neg D$                      |
+|:--------------:|:-------------:|:-----------------------:|
+| $S$             | True Positive (TP) (a) | False Positive (FP) (b)|
+| $\neg S$             | False Negative (FN) (c) | True Negative (TN) (d) |
+
+### Sensitivity / Specificity
+
+Sensitivity: $P(S|D)=\dfrac{a}{a+c}$ (Rate of True Positives)
+
+Specificity: $P(\neg S|\neg D)=\dfrac{d}{b+d}$ (Rate of True Negatives)
+
+1 - Sensitivity: $P(\neg S|D)=\dfrac{c}{a+c}$ (Rate of False Negatives)
+
+1 - Specificity: $P(S|\neg D)=\dfrac{b}{b+d}$ (Rate of False Positives)
+
+### Positive Likelihood Ratio
+
+$+LR=\dfrac{Sensitivity}{1-Specificity}$
+
+$+LR=\dfrac{P(S|D)}{P(S|\neg D)}$
+
+$+LR= \dfrac{P(TP)}{P(FP)}$
+
+$+LR= \dfrac{a(b+d)}{b(a+c)}$
+
+### Negative Likelihood Ratio
+
+$-LR=\dfrac{1-Sensitivity}{Specificity}$
+
+$-LR=\dfrac{P(\neg S|D)}{P(\neg S|\neg D)}$
+
+$-LR= \dfrac{P(FN)}{P(TN)}$
+
+$-LR= \dfrac{c(b+d)}{d(a+c)}$ 
+
+## Bayes Formula
+
+$P(D|S)=\dfrac{P(S|D)\cdot P(D)}{P(S)}$
+
+The $P(D)$ and $P(S)$ are the "priors" - or "baseline" probabilities of the disease and the sign
+
+### Alternative format
+
+$P(\neg D|\neg S)=\dfrac{P(\neg S|\neg D)\cdot P(\neg D)}{P(\neg S)}$
+
+The $P(\neg D)$ and $P(\neg S)$ are the "priors" - or "baseline" probabilities of not having the disease or the sign
+
+

@@ -1,0 +1,7 @@
+book_filename: "Biostatistics"
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true
+
+rmd_files: ["index.Rmd", "02-intro.Rmd", "03-part1.Rmd", "chp1.Rmd","chp2.Rmd", "chp3.Rmd","chp4.Rmd","chp5.Rmd","chp6.Rmd","chp7.Rmd","chp8.Rmd","04-part2.rmd", "chp9.Rmd","chp10.Rmd","chp11.Rmd","chp12.Rmd","chp13.Rmd"]
