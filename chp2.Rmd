@@ -1,3 +1,0 @@
-# Programming Concepts in R
-
-Under development

@@ -1,9 +1,0 @@
-# Part II  {-#part2}
-
-## Tentative Contents
-
-9. Computational Approaches to Statistical Inference
-10. Methods for Statistical Modeling
-11. Building Statistical Models
-12. Evaluating & Interpreting Statistical Models
-13. Presentation & Dissemination

@@ -45,6 +45,5 @@ exploratory-analysis
 tentative-contents
 computational-approaches-to-statistical-inference
 methods-for-statistical-modeling
-building-statistical-models
 evaluating-interpreting-statistical-models
 presentation-dissemination
