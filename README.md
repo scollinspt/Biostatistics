@@ -3,6 +3,8 @@
 
 A book in development for the Biostatistics sequence of courses (1 & 2) at the University of Jamestown PhD in Clinical Research program. The book teaches and utilizes examples with the open source computational platform R  ( https://cran.r-project.org/). There is an emphasis and equal distribution of theory and application through all chapters. There is an underlying emphasis on performing all applications utilizing reproducible research approaches (programming with sufficient commentary) and tools (GitHub, Figshare, Open Science Framework, etc) throughout the book.
 
+The current draft is hosted on the bookdown server: https://bookdown.org/scollinspt/Biostatistics/
+
 ## Tentative ToC
 
 ### Part One (Biostatistics I)
